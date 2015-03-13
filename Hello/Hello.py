@@ -43,7 +43,7 @@ class Simple_drawing_window3(QWidget):
      
         p.setPen(QColor(255, 127, 0))
         p.setBrush(QColor(255, 127, 0))
-        p.drawPie(40, 200, 100, 100, 0, 180 * 16)
+        p.drawPie(70, 200, 100, 100, 0, 180 * 16)
         p.drawPie(10, 200, 140, 120, 10, 80 * 10)
 
         p.drawPolygon([QPoint(50, 2), QPoint(150, 20), QPoint(10, 40)])
