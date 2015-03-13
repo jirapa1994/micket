@@ -9,7 +9,6 @@ class Disc(Turtle):
         self.st()
 class Tower(list,Turtle):
     def __init__(self, x):
-        
         self.x = x
     def push(self, d):
         d.setx(self.x)
