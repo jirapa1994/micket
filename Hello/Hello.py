@@ -40,7 +40,6 @@ class Simple_drawing_window3(QWidget):
 
         p.setPen(QColor(0, 0, 0))
         p.setBrush(QColor(0, 127, 0))
-     
         p.setPen(QColor(255, 127, 0))
         p.setBrush(QColor(255, 127, 0))
         p.drawPie(70, 200, 100, 100, 0, 180 * 16)
