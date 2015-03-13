@@ -21,6 +21,7 @@ class Simple_drawing_window2(QWidget):
         p.setBrush(qColor(255, 127, 0))
         p.drawPie(50, 100, 100, 0, 180 * 16)
 
-        p.drawPolygon([QPoint(50, 21), QPoint(10, 20), QPoint(110, 40)])
+        p.drawPolygon([QPoint(50, 2), QPoint(150, 20), QPoint(10, 40)])
 
         p.drawImage(QRect(200, 100, 320, 320), self.rabbit)
+        p.end
