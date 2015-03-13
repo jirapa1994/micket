@@ -7,7 +7,6 @@ class Disc(Turtle):
         self.shapesize(1.5, n*1.5, 2) 
         self.fillcolor(n/6., 0, 1-n/6.)
         self.st()
-
 class Tower(list,Turtle):
     def __init__(self, x):
         
