@@ -1,5 +1,5 @@
 from turtle import *
-#bobobobobobbiuhihodphbkerperkgpk
+#bobobobobobbiuhihodphbkerperkgpk orkew  final leaw na ja
 class Disc(Turtle):
     def __init__(self, n):
         Turtle.__init__(self, shape="square", visible=False)
